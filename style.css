@@ -83,16 +83,28 @@ button:hover {
 
 .reaction {
     padding: 20px;
+    color: hsl(0, 100%, 67%);
 }
 
 .memory {
     padding: 20px;
+    color: hsl(39, 100%, 56%);
 }
 
 .verbal {
     padding: 20px;
+    color: hsl(166, 100%, 37%);
 }
 
 .visual {
     padding: 20px;
+    color: hsl(234, 85%, 45%);
+}
+
+/* MEDIA */
+@media(max-width:900px) {
+    .maincontent {
+        flex-direction: column;
+    }
+
 }
