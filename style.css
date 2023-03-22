@@ -12,7 +12,10 @@
 h2 {
     margin: 20px;
 }
-
+p
+{
+    font-size: 66px;
+}
 .summary {
     font-size: 20px;
     text-align: left;
@@ -39,7 +42,7 @@ body {
 
 /* LEFT SITE */
 .leftsite {
-    background: linear-gradient(45deg, hsl(252, 100%, 67%), hsla(256, 72%, 46%, 1));
+    background: linear-gradient(45deg, hsla(252, 91%, 58%, 0.763), rgba(78, 33, 202, 0.88));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +50,7 @@ body {
     width: 50%;
     border-radius: 40px;
     padding: 30px;
+    color: white;
 }
 
 .circle {
@@ -55,10 +59,19 @@ body {
     height: 200px;
     border-radius: 50%;
     border: 1px solid rgb(97, 36, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bot {
     text-align: center;
+    padding: 10px;
+}
+.bot h2
+{
+    font-size: 26px;
 }
 
 /* RIGHT SITE */
@@ -82,6 +95,7 @@ button {
     border: initial;
     margin: 20px;
     color: white;
+    width: 300px;
 }
 
 button:hover {
@@ -152,7 +166,7 @@ button:hover {
     background-color: hsla(234, 85%, 45%, 0.2);
     border-radius: 10px;
     margin: 20px;
-    max-width: 300px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -170,5 +184,22 @@ button:hover {
     .maincontent {
         flex-direction: column;
     }
-
+    .rightsite
+    {
+        margin: 0 auto;
+        padding: 0px;
+        align-items: center;
+    }
+    .leftsite
+    {
+        margin: 0 auto;
+        width: 100vw;
+        border-radius: 0px 0px 50px 50px;
+    }
+    .maincontent
+    {
+        height: 100%;
+        width: 100%;
+    }
+    
 }
